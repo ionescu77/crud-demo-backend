@@ -48,8 +48,8 @@ python3 -m venv .
 
 ### PostgreSQL
 You have a `Dockerfile` in the repo.
-Just run:
+To start the DB just run:
 ```bash
-docker build .
-
+make start-db
+make stop-db
 ```
