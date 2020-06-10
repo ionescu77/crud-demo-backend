@@ -37,11 +37,11 @@ Deployment instructions
 Check if you have Py3 and ocally make a new virtualenv in myProjects:
 
 ```bash
-# Go to you local projects folder:
-cd $HOME/myProjects/
+# Go to you local project folder:
+cd $HOME/myProjects/django-rest-api-postgresql
 # Check to make sure Py3 is available:
-which python3.6
-/usr/local/bin/python3.6
+which python3
+/usr/local/bin/python3.7
 # Create a virtualenv
-python3 -m venv selfpower
+python3 -m venv .
 ```
