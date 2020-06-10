@@ -30,7 +30,7 @@ https://github.com/bezkoder/django-rest-api-postgresql
 ## How do I get set up?
 Summary of set up Setup for local on Macbook, Staging and Live/Production.
 
-Deployment instructions
+### Deployment instructions
 
 0. Open a terminal window
 1. Make py3.6 virtualenv
@@ -44,4 +44,12 @@ which python3
 /usr/local/bin/python3.7
 # Create a virtualenv
 python3 -m venv .
+```
+
+### PostgreSQL
+You have a `Dockerfile` in the repo.
+Just run:
+```bash
+docker build .
+
 ```
