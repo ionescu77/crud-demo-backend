@@ -23,5 +23,25 @@ Open the URL http://localhost:8080/ to access the application.
 - psycopg2 2.8.5
 - django-cors-headers 3.2.1
 
-## Source
+## Repo from:
 https://github.com/bezkoder/django-rest-api-postgresql
+
+
+## How do I get set up?
+Summary of set up Setup for local on Macbook, Staging and Live/Production.
+
+Deployment instructions
+
+0. Open a terminal window
+1. Make py3.6 virtualenv
+Check if you have Py3 and ocally make a new virtualenv in myProjects:
+
+```bash
+# Go to you local projects folder:
+cd $HOME/myProjects/
+# Check to make sure Py3 is available:
+which python3.6
+/usr/local/bin/python3.6
+# Create a virtualenv
+python3 -m venv selfpower
+```
