@@ -7,7 +7,7 @@ For more detail, please visit:
 
 Create the DB tables first:
 ```
-python manage.py migrate
+python src/manage.py migrate
 ```
 Run the development web server:
 ```
