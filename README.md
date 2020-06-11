@@ -1,7 +1,24 @@
 # Django Restful CRUD API with PostgreSQL example
+## Kudos
+<https://bezkoder.com/> for a great tutorial.
+I clonned the original repo and made some small adaptions to get myself started quicker:
+- [X] create `requirements` folder
+- [X] add required pip packages to `requirements/base.txt`
+- [X] renamed `DjangoRestApisPostgreSQL` folder to `src`
+- [X] updated `settings.py` to make CORS accept localhost angular app
+- [X] also included DB credentials in above file
+- [X] created `docker-compose.yml` file for PostgreSQL DB
+- [X] updated `README.md`
 
 For more detail, please visit:
 > [Django CRUD with PostgreSQL example | Django Rest Framework](https://bezkoder.com/django-postgresql-crud-rest-framework/)
+
+## Clone the repo
+- cd into your projects folder
+- git clone this repo
+```bash
+git clone git@github.com:ionescu77/crud-demo-django-backend.git
+```
 
 ## Running the Application
 
@@ -33,12 +50,12 @@ Summary of set up Setup for local on Macbook, Staging and Live/Production.
 ### Deployment instructions
 
 0. Open a terminal window
-1. Make py3.6 virtualenv
-Check if you have Py3 and ocally make a new virtualenv in myProjects:
+1. Make py3 virtualenv
+Check if you have Py3 and locally make a new virtualenv in myProjects:
 
 ```bash
 # Go to you local project folder:
-cd $HOME/myProjects/django-rest-api-postgresql
+cd $HOME/myProjects/crud-demo-django-backend
 # Check to make sure Py3 is available:
 which python3
 /usr/local/bin/python3.7
