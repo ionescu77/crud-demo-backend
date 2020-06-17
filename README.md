@@ -1,5 +1,13 @@
 # Django Restful CRUD API with PostgreSQL example
 
+## API
+# | PATH
+--- | ---
+1 | api/tutorials
+2 | api/tutorials/(?P<pk>[0-9]+)
+3 | api/tutorials/published
+
+
 ## Requirements
 (`requirements/base/txt`)
 - Python 3.7.7
