@@ -1,12 +1,14 @@
 # Django Restful CRUD API with PostgreSQL example
 
 ## API
-Nr | PATH
---- | ---
-1 | api/tutorials
-2 | api/tutorials/(?P<pk>[0-9]+)
-3 | api/tutorials/published
+Nr | Hostname | PATH
+--- | --- | ---
+1 | localhost:8080 | api/tutorials
+2 | localhost:8080 | api/tutorials/(?P<pk>[0-9]+)
+3 | localhost:8080 | api/tutorials/published
 
+## CORS
+- cors disabled
 
 ## Requirements
 (`requirements/base/txt`)
