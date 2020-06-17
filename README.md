@@ -1,7 +1,7 @@
 # Django Restful CRUD API with PostgreSQL example
 
 ## API
-# | PATH
+Nr | PATH
 --- | ---
 1 | api/tutorials
 2 | api/tutorials/(?P<pk>[0-9]+)
