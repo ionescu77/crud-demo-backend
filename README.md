@@ -1,5 +1,9 @@
 # Django Restful CRUD API with PostgreSQL example
 
+## Fullstack
+- front: https://github.com/ionescu77/crud-demo-angular-frontend
+- back: https://github.com/ionescu77/crud-demo-django-backend
+
 ## API
 Nr | Hostname | PATH
 --- | --- | ---
